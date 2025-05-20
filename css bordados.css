@@ -84,3 +84,17 @@
     padding: 20px;
     margin-top: 40px;
   }
+
+  .contatoFooter{
+    display: flex;
+    justify-content: right;
+  }
+  .whatsNum{
+    font-size: small;
+  }
+  #whatsLogo{
+    width: 20px;    
+    height: auto;
+    display: flex;
+    padding: 2px;
+  }
