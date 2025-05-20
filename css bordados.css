@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -69,12 +70,27 @@
     margin-top: 10px;
     text-align: center;
   }
+  .sobreNos {
+    display: flex;
+  }
+  .ImagemSBdiv{
+    display: flex;
+    justify-content: left;
+  }
+  #imagemSB{
+    width: 40%;
+    height: auto; 
+    padding-left: 20px;
+  }
   
-  #sobre p {
+  #paragrafoSB {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 18px; 
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
   }
   
   footer {
